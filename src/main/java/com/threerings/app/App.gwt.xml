@@ -1,0 +1,6 @@
+<module>
+  <inherits name="com.threerings.gwt.Utils"/>
+
+  <source path="client"/>
+  <source path="data"/>
+</module>
