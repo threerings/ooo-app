@@ -10,7 +10,7 @@
   <groupId>com.threerings</groupId>
   <artifactId>ooo-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <name>ooo-app</name>
   <description>A simple framework for mostly standalone web apps.</description>
