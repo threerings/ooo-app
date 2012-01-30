@@ -1,5 +1,7 @@
 //
-// $Id$
+// ooo-app - a simple framework for (Java-based) social webapps
+// Copyright (c) 2012, Three Rings Design, Inc. - All rights reserved.
+// http://github.com/threerings/ooo-app/blob/master/etc/LICENSE
 
 package com.threerings.app;
 
