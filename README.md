@@ -1,6 +1,3 @@
-ooo-app
-=======
-
 ooo-app is a simple framework for social webapps written in Java. In
 conjunction with a bunch of other OOO libraries, it provides user management
 and a few other basic services.
