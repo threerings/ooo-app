@@ -15,9 +15,7 @@ public class ServiceException extends Exception
     /**
      * Throws a Service with the given message unless condition is true.
      */
-    public static void unless (boolean condition, String message)
-        throws ServiceException
-    {
+    public static void require (boolean condition, String message) throws ServiceException {
         if (!condition) {
             throw new ServiceException(message);
         }
@@ -41,15 +39,13 @@ public class ServiceException extends Exception
     /**
      * Creates a service exception with the supplied translation message.
      */
-    public ServiceException (String message)
-    {
+    public ServiceException (String message) {
         super(message);
     }
 
     /**
-     * Default constructor for use when unserializing.
+     * Creates blank instance (for use when unserializing).
      */
-    public ServiceException ()
-    {
+    public ServiceException () {
     }
 }
