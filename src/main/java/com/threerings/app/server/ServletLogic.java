@@ -109,7 +109,10 @@ public class ServletLogic
             _extAuthRepo.updateExternalSession(auther, id, sessionKey);
         }
         // start an app session for this user
-        return _userRepo.registerSession(_userRepo.loadUser(userId), EXT_AUTH_DAYS);
+        OOOUser user = _userRepo.loadUser(userId);
+        ServiceException.require(user != null, "Missing user for external logon [extId=" + id +
+                                 ", userId=" + userId + "]");
+        return _userRepo.registerSession(user, EXT_AUTH_DAYS);
     }
 
     /**
