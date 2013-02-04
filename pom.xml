@@ -49,7 +49,7 @@
     <dependency>
       <groupId>com.threerings</groupId>
       <artifactId>ooo-user</artifactId>
-      <version>1.4-SNAPSHOT</version>
+      <version>1.4</version>
     </dependency>
 
     <dependency>
